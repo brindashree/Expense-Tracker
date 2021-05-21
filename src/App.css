@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+
+body {
+	background: #c31432; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#240b36,
+		#c31432
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #240b36, #c31432);
+	height: 100vh;
+	font-family: "Days One", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-group span {
+	width: 150px;
+}
+.error {
+	background-color: #fee2e2;
+}
+.maindiv span {
+	margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+	font-family: "Days One", sans-serif;
+	color: #a7f3d0;
+	font-size: 3.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tracknav {
+	background-color: #a7f3d0;
+	height: 60px;
 }
-
-.App-link {
-  color: #61dafb;
+.newTransaction span {
+	width: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Spinner {
+	display: table;
+	margin: 0 auto;
+}
+.Spinner > .ImgSpinner {
+	max-width: 30px;
+}
+.money {
+	color: #f1f5f9;
 }
